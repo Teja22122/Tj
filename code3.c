@@ -3,22 +3,24 @@ void main()
 {
   char ch;
   scanf("%c",&ch);
-  if(ch!=char)
-    printf("invalid");
-  else
-  switch(ch)
+  if( (ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
   {
-    case a:printf("vowel");
+    switch(ch)
+    {
+       case a:printf("vowel");
            break;
-    case e:printf("vowel");
+       case e:printf("vowel");
            break;
-    case i:printf("vowel");
+      case i:printf("vowel");
            break;
-    case o:printf("vowel");
+      case o:printf("vowel");
            break;
-    case u:printf("vowel");
+       case u:printf("vowel");
            break;
-    default:printf("consonants");
+       default:printf("consonants");
             break;
-   }
+    }
+  }
+  else
+    printf("invalid")
 }
