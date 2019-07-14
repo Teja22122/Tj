@@ -5,7 +5,7 @@ void main()
 	scanf("%d%d",&a,&b);
 	int c[a];
 	if(a<b)
-		printf("invalid")
+		printf("invalid");
 	else
 	{
 		
